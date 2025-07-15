@@ -16,7 +16,7 @@ if generate_btn and openai_api_key and topic:
     # Simulated flashcards (in actual use, call OpenAI API)
     flashcards = [
         {"question": "What is AI?", "answer": "AI stands for Artificial Intelligence."},
-        {"question": "Name a type of machine learning.", "answer": "Supervised learning."}
+        {"question": "Name a type of machine learning.", "answer": "Supervised learning."},
         {"question": "Name a NLP application tool." , "answer": "ChatGPT"}
     ]
     df = pd.DataFrame(flashcards)
